@@ -1,0 +1,96 @@
+
+body {
+  background-color: black ;
+  height: 100%; 
+  overflow:auto;
+}
+
+html { 
+  height: 100%; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#image-container {
+  position: absolute;
+  display: block;
+  display: grid;
+  height: 100vh;
+}
+
+img {
+  max-height: 100vh;
+  margin: auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.videos {
+  display: block;
+	margin:0;
+	padding:0;
+  mix-blend-mode: multiply;
+}
+
+#dogVideo {
+	position: fixed;
+	width: 30vw;
+  height: 50vh;
+  top: 24%;
+  right: 79%;
+  transform: translate(50%, 50%);
+}
+
+#stormVideo {
+	position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 100vw;
+}
+
+#harvest {
+	position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 3500vh;
+}
+
+#harvest2 {
+	position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 3990vh;
+}
+
+#buildings {
+	position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 1990vh;
+}
+
+#town {
+	position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 990vh;
+}
+
+#forest {
+	position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 2590vh;
+}
+
+#titels {
+  position: fixed;
+	width: 100vw;
+  height: 50vh;
+  top: -24%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
